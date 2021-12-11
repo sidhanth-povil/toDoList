@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    letter-spacing: 1px;
+    font-family: poppins;
+    text-transform: capitalize;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFE53B;
+    background-image: linear-gradient(134deg, #121331 0%, #36CCA0 74%);
+
+}
+
+.container{
+    height:65vh;
+    width: 330px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 15px;
+    overflow-y:none;
+}
+#entryList{
+    height: 50px;
+    width: 100%;
+    outline: none;
+    border:none;
+    background: #fafafa;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 0px 16px;
+    color: rgb(37, 36, 36);
+    /* padding: 0 10px; */
+    padding-left: 10px;
+    margin: 15px 0;
+}
+#entryList::placeholder{
+    color: #FF2525;
+    padding-left: 10px;
+}
+/* .lists{
+    padding-left: 20px;
+} */
+.btn-grad {
+    background-image: linear-gradient(to right, #121331 83%, #36CCA0  10%);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+}
+.btn-grad {
+    margin: 10px;
+    position: absolute;
+    padding: 15px 25px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    border:0;
+    display: block;
+}
+
+.btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+    
+lord-icon{
+    padding-left: 15px;
+    cursor: pointer;
+}
+ul{
+    list-style-type:none;
+}
+ul li{
+    background: #36cc9f6b;
+    font-weight: 600;
+    color: #121331;
+    height: 20px;
+    border-radius: 30px;
+    margin: 10px 0;
+    padding: 20px 15px;
+}
+ul .tick{
+    padding-left: 40px;
+}
+ul .checked{
+    background:lightgreen;
+    text-decoration: line-through;
+    transition: .4s;
+}
+input:active { 
+    outline: none !important;
+    border: 1px solid;
+    border-color: #121331;
+    box-shadow: 0 0 10px #719ECE;
+ }
+
